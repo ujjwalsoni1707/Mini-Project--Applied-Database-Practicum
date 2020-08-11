@@ -1,0 +1,64 @@
+<html>
+<head>
+<link href="Mini_Project.css" type="text/css" rel="stylesheet">
+<title>Mini Project</title>
+</head>
+
+<body>
+
+ <h2>Mini Project<br></h2>
+  
+ <div class="box">
+    <form method="post" id="felement" action="create.php">
+      
+      <label> FROM :</label>
+      <input type="text" name="f" value="dd/mm/yyyy">
+      
+      <label> TO :</label>
+      <input type="text" name="t" value="dd/mm/yyyy">
+      <br><br>
+
+      <!--<div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn">Home Page</button>
+      <br>
+ 
+      <div id="myDropdown" class="dropdown-content">
+      <a href="https://www.google.com">Google</a>
+      <a href="https://www.iitmandi.ac.in">IIT Mandi</a>
+      </div>
+      </div>
+      <div class="dropdown">
+      <button class="dropbtn">Dropdown</button>
+      <div class="dropdown-content">
+      <h2>Temperature</h2>
+      <h2>CO2</h2>
+      </div>
+      </div>-->
+      <select name="mydropdown">
+<option value="T">Temperature</option>
+<option value="Cm">CO Concentration</option>
+<option value="Humidity">Humidity</option>
+<option value="NO">NO Concentration</option>
+<option value="O">Ozone Concentration</option>
+<option value="P">Pressure</option>
+<option value="SO2">SO2 Concentration</option>
+<option value="WS">Wind Speed</option>
+<option value="PM1">Particulate Matter(Dia<=1 um)</option>
+<option value="PM2">Particulate Matter(Dia<=2.5 um)</option>
+<option value="PM1">Particulate Matter(Dia<=10 um)</option>
+
+</select>
+      
+      <input type="submit" id="bt" name="action" value="Submit Query"/>
+      <br><br>
+
+      <input type="radio" name="max" value="max"> MAXIMUM
+      <br>
+      <input type="radio" name="min" value="min"> MINIMUM
+      <br>
+      <input type="radio" name="avg" value="avg"> AVERAGE
+    </form>
+  </div>
+
+</body>
+</html>
