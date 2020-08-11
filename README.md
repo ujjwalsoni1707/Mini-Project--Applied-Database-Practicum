@@ -1,1 +1,1 @@
-# Mini-Project--Applied-Database-Practicum
+# Mini-Project-Applied-Database-Practicum
